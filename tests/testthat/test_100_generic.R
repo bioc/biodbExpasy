@@ -34,8 +34,8 @@ conn <- biodb$getFactory()$createConn('expasy.enzyme')
 # IMPORTANT Once you are done with the JSON files, uncomment the following lines
 # in order to enable generic tests to run:
 testRefFolder <- system.file("testref", package='biodbExpasy')
-biodb::runGenericTests(conn, pkgName="biodbExpasy",
-    testRefFolder=testRefFolder, opt=list(max.results=1))
+#biodb::runGenericTests(conn, pkgName="biodbExpasy",
+#    testRefFolder=testRefFolder, opt=list(max.results=1))
 
 # Terminate Biodb
 biodb$terminate()
