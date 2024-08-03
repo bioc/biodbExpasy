@@ -9,8 +9,10 @@
 The biodbExpasy library provides access to Expasy ENZYME database, using biodb package framework. It allows to retrieve entries by their accession number. Web services can be accessed for searching the database by name or comments.
 }
 \details{
-See vignette biodbExpasy:\preformatted{vignette('biodbExpasy', package='biodbExpasy')
-}
+See vignette biodbExpasy:
+
+\if{html}{\out{<div class="sourceCode">}}\preformatted{vignette('biodbExpasy', package='biodbExpasy')
+}\if{html}{\out{</div>}}
 }
 \seealso{
 \link{ExpasyEnzymeConn}.
